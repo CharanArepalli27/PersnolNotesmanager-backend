@@ -1,0 +1,32 @@
+GET http://localhost:3000/notes
+###
+
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+    "title" : "Meeting with Team",
+    "description" : "To discuss about new Project",
+    "category" : "Work"
+}
+###
+
+PUT http://localhost:3000/notes/adfe1c10-d95a-4f49-b5b6-be245a190a50
+Content-Type: application/json
+
+{
+    "title" : "Meeting with CEO",
+    "description" : "To discuss about Company Growth",
+    "category" : "Work"
+}
+###
+
+DELETE http://localhost:3000/notes/c566ec44-d24e-4453-9684-4d3d1f29deac
+###
+
+GET http://localhost:3000/notes/Personal
+Content-Type: application/json 
+###
+
+
+
